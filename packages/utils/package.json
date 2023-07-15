@@ -3,6 +3,9 @@
   "version": "0.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "len.liu <len.liu@miotech.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "",
   "license": "ISC",
   "main": "lib/utils.js",
@@ -15,5 +18,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
-  }
+  },
+  "gitHead": "a5643db0c3efba8f0121f6e58879f39d1060aee3"
 }
