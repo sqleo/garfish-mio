@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "len.liu <len.liu@miotech.com>",
+  "private": true,
   "publishConfig": {
     "access": "public"
   },
