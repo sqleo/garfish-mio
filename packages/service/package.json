@@ -1,0 +1,26 @@
+{
+  "name": "@sklon/service",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "len.liu <len.liu@miotech.com>",
+  "homepage": "https://github.com/sqleo/garfish-mio#readme",
+  "license": "ISC",
+  "main": "lib/service.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqleo/garfish-mio.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/service.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sqleo/garfish-mio/issues"
+  }
+}
