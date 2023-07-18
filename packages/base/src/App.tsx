@@ -9,11 +9,11 @@ const App = () => {
       domGetter: '#subApp',
       disablePreloadApp: false,
       apps: [
-        {
-          name: 'react',
-          activeWhen: '/react',
-          entry: 'http://localhost:3000',
-        }
+        // {
+        //   name: 'react',
+        //   activeWhen: '/react',
+        //   entry: 'http://localhost:3000',
+        // }
       ],
       /* lifecycle hooks */
       beforeLoad(appInfo) {
@@ -31,9 +31,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+          主应用
         <div id="container"></div>
       </header>
     </div>
