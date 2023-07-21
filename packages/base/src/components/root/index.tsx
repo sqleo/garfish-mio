@@ -65,16 +65,17 @@ const RootComponent = () => {
           />
 
           {/* 路由注册 */}
-          {/* {localApps &&
+          {localApps &&
             localApps.map((v) => {
               return (
                 <Route
                   key={v.name}
                   path={`${basename}${v.activeWhen}/*`}
-                  element={<App store={store} />}
+                  element={<App />}
+                  // store={store}
                 ></Route>
               );
-            })} */}
+            })}
 
           {/* 由于vue2 的 activeWhen 返回的是函数，需要在这里静态注册路由 */}
           {/* <Route
@@ -107,7 +108,7 @@ const RootComponent = () => {
           ></Route> */}
 
           {/* 路由不匹配时渲染 404 页面   */}
-          {/* <Route path="*" element={<NotFound />}></Route> */}
+          <Route path="*" element={<div> 404 页面 </div>}></Route>
         </Routes>
       </Router>
     </ConfigProvider>

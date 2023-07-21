@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      子应用
+      主应用
       </header>
     </div>
   );

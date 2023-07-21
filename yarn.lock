@@ -1365,6 +1365,13 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.44.0.tgz"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
+"@garfish/bridge-react-v18@^1.16.2":
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/@garfish/bridge-react-v18/-/bridge-react-v18-1.16.2.tgz#4145ef77af1df1730427c1f650064359d97812c4"
+  integrity sha512-jHXfw1/VNds224twtzK7MNe+wkpBOmvAqM2w/9NxX5lWbst6sbLnJ0g4pZ7vPQaTXNi2bVI5bHQAiq74xo4qYA==
+  dependencies:
+    "@garfish/utils" "1.16.2"
+
 "@garfish/browser-snapshot@1.16.2":
   version "1.16.2"
   resolved "https://registry.yarnpkg.com/@garfish/browser-snapshot/-/browser-snapshot-1.16.2.tgz#fc6bb84cfe37684d62b450f7db29db3eefba6407"
